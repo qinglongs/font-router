@@ -1,0 +1,26 @@
+#router-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #004aa3;
+  width: 200px;
+  .list-item {
+    background-color: #004aa3;
+    // width: 200px;
+    padding: 10px;
+    margin: 0;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .list-item[class='active'] {
+    background-color: #eee;
+  }
+
+  .list-item:hover {
+    background-color: #eee;
+  }
+}
